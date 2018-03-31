@@ -63,11 +63,13 @@ lalu membuat direktori Joomla! <br>
 `$ cd /var/www/html/joomla/` untuk masuk ke direktori jumlah <br>
 `$ sudo rm -rf installation/` untuk remove direktori
 - Sekarang kita akan membuat database untuk sistem <br>
-```mysql -u root -p
+```
+mysql -u root -p
 create database joomladb;
 create user joomla identified by 'password';
 grant all privileges on joomladb.* to joomla;
-exit```
+exit
+```
 
 ## Cara Pemakaian
 
