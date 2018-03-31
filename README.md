@@ -26,9 +26,11 @@ _**Joomla!**_ Joomla! adalah Sistem manajemen konten (SMK atau CMS) yang bebas d
     http	TCP		                    8888		            80          
     ssh     TCP		                    2222		            22
 -------------------------------------------------------------------------
--   _Update_ sistem dengan versi yang terbaru `$ sudo apt-get update -y`
+-   _Update_ sistem dengan versi yang terbaru 
+    `$ sudo apt-get update -y`
     
--   _Install_ ssh `$ sudo apt update` lalu `$ sudo apt install ssh`
+-   _Install_ ssh `$ sudo apt update` lalu
+    `$ sudo apt install ssh`
     
 -   _Install_ apache, MySQL, dan PHP, lalu restart system
 ```
