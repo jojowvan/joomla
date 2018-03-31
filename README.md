@@ -69,20 +69,17 @@ lalu membuat direktori Joomla!
 
 ## Cara Pemakaian
 
-Untuk melihat artikel (dapat disort berdasarkan beberapa kategori), pilih menu my artikel. Maka akan muncul tampilan seperti berikut :
-<img src=https://raw.githubusercontent.com/jojowvan/Blogotext/master/screenshot-localhost%208000-2018-03-20-20-05-24.png></img>
+Saat instalasi berhasil, tampilan yang akan muncul adalah seperti gambar berikut :
+<img src=https://raw.githubusercontent.com/jojowvan/joomla/master/12.JPG></img>
 
-Untuk mengedit artikel, dapat memilih judul artikel yang tersedia, maka akan tampil seperti berikut:
-<img src=https://raw.githubusercontent.com/jojowvan/Blogotext/master/screenshot-localhost%208000-2018-03-20-20-09-09.png></img>
+Setelah anda login, tampilan berubah menjadi sebagai berikut:
+<img src=https://raw.githubusercontent.com/jojowvan/joomla/master/13.JPG></img>
 
-Untuk membuat artikel baru, dapat memilih menu new article, maka akan tampilan seperti berikut:
-<img src=https://raw.githubusercontent.com/jojowvan/Blogotext/master/screenshot-localhost%208000-2018-03-20-20-06-12.png></img>
+Untuk membuat kiriman baru, anda dapat memilih menu create a post yang berada pada kiri atas layar anda, seperti gambar berikut:
+<img src=https://raw.githubusercontent.com/jojowvan/joomla/master/1.JPG></img>
 
-Untuk meng-upload file, dapat memilih menu files, akan tampil tampilan berikut:
-<img src=https://raw.githubusercontent.com/jojowvan/Blogotext/master/screenshot-localhost%208000-2018-03-20-20-09-46.png></img>
-
-Tampilan setelah upload file:
-<img src=https://raw.githubusercontent.com/jojowvan/Blogotext/master/screenshot-localhost%208000-2018-03-20-20-14-23.png></img>
+Jika anda telah membuat kiriman, maka kiriman tersebut akan tampil pada layar utama anda, seperti berikut:
+<img src=https://github.com/jojowvan/joomla/blob/master/2.JPG></img>
 
 ## Pembahasan
 **Kelebihan**
