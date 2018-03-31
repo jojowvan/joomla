@@ -42,7 +42,7 @@ $ sudo apt install php-mysql
 $ sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
 $ sudo service apache2 restart
 ```
-- Unduh versi terakhir dari Joomla! dengan cara
+- Unduh versi terakhir dari Joomla! dengan cara <br>
 `$ sudo wget https://downloads.joomla.org/cms/joomla3/3-8-6/Joomla_3-8-6-Stable-Full_Package.zip?format=zip`
 - Untuk mempermudah, kita dapat meletakkannya di direktori Joomla! yang terdapat di dalam direktori html. Maka kita masuk ke dalam direktori html terlebih dahulu
 `$ cd /var/www/html/`
