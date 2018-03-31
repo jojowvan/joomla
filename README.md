@@ -44,43 +44,43 @@ $ sudo service apache2 restart
 ```
 - Unduh versi terakhir dari Joomla! dengan cara <br>
 `$ sudo wget https://downloads.joomla.org/cms/joomla3/3-8-6/Joomla_3-8-6-Stable-Full_Package.zip?format=zip`
-- Untuk mempermudah, kita dapat meletakkannya di direktori Joomla! yang terdapat di dalam direktori html. Maka kita masuk ke dalam direktori html terlebih dahulu
+- Untuk mempermudah, kita dapat meletakkannya di direktori Joomla! yang terdapat di dalam direktori html. Maka kita masuk ke dalam direktori html terlebih dahulu <br>
 `$ cd /var/www/html/`
-lalu membuat direktori Joomla!
+lalu membuat direktori Joomla! <br>
 `$ sudo mkdir joomla`
-- Masuk ke direktori Joomla yang telah kita buat
+- Masuk ke direktori Joomla yang telah kita buat <br>
 `$ cd joomla`
-- Selanjutnya kita ekstrak file yang telah diunduh dan meletakkannya di dalam direktori joomla
+- Selanjutnya kita ekstrak file yang telah diunduh dan meletakkannya di dalam direktori joomla <br>
 `sudo unzip Joomla_3-8-6-Stable-Full_Package.zip?format=zip -d      /var/www/html/joomla`
-- Selanjutnya kita atur kepemilikan direktori
+- Selanjutnya kita atur kepemilikan direktori <br>
 `$ sudo chown -R www-data:www-data /var/www/html/joomla/`
-- Lalu atur perizinan akses direktori
+- Lalu atur perizinan akses direktori <br>
 `$ sudo chmod 755 /var/www/html/joomla`
-- Setelah itu kita restart apache dan mysql
-`$ systemctl restart apache2`
+- Setelah itu kita restart apache dan mysql <br>
+`$ systemctl restart apache2` <br>
 `$ systemctl restart mysql.service`
-- Selanjutnya kita akan menghilangkan direktori installation yang berada di dalam direktori joomla
-`$ cd /var/www/html/joomla/` untuk masuk ke direktori jumlah
+- Selanjutnya kita akan menghilangkan direktori installation yang berada di dalam direktori joomla <br>
+`$ cd /var/www/html/joomla/` untuk masuk ke direktori jumlah <br>
 `$ sudo rm -rf installation/` untuk remove direktori
-- Sekarang kita akan membuat database untuk sistem
-`mysql -u root -p`
-`create database joomladb;`
-`create user joomla identified by 'password';`
-`grant all privileges on joomladb.* to joomla;`
-`exit`
+- Sekarang kita akan membuat database untuk sistem <br>
+```mysql -u root -p
+create database joomladb;
+create user joomla identified by 'password';
+grant all privileges on joomladb.* to joomla;
+exit```
 
 ## Cara Pemakaian
 
-Saat instalasi berhasil, tampilan yang akan muncul adalah seperti gambar berikut :
+Saat instalasi berhasil, tampilan yang akan muncul adalah seperti gambar berikut : <br>
 <img src=https://raw.githubusercontent.com/jojowvan/joomla/master/12.JPG></img>
 
-Setelah anda login, tampilan berubah menjadi sebagai berikut:
+Setelah anda login, tampilan berubah menjadi sebagai berikut: <br>
 <img src=https://raw.githubusercontent.com/jojowvan/joomla/master/13.JPG></img>
 
-Untuk membuat kiriman baru, anda dapat memilih menu create a post yang berada pada kiri atas layar anda, seperti gambar berikut:
+Untuk membuat kiriman baru, anda dapat memilih menu create a post yang berada pada kiri atas layar anda, seperti gambar berikut: <br>
 <img src=https://raw.githubusercontent.com/jojowvan/joomla/master/1.JPG></img>
 
-Jika anda telah membuat kiriman, maka kiriman tersebut akan tampil pada layar utama anda, seperti berikut:
+Jika anda telah membuat kiriman, maka kiriman tersebut akan tampil pada layar utama anda, seperti berikut: <br>
 <img src=https://github.com/jojowvan/joomla/blob/master/2.JPG></img>
 
 ## Pembahasan
