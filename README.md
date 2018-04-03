@@ -85,6 +85,24 @@ Untuk membuat kiriman baru, anda dapat memilih menu create a post yang berada pa
 Jika anda telah membuat kiriman, maka kiriman tersebut akan tampil pada layar utama anda, seperti berikut: <br>
 <img src=https://github.com/jojowvan/joomla/blob/master/2.JPG></img>
 
+Di sisi super user atau admin, lebih banyak fitur yang ditawarkan, seperti gambar berikut :
+<img src=https://raw.githubusercontent.com/jojowvan/joomla/master/IMG_0814.jpg></img>
+
+Dapat dilihat bahwa admin bisa melakukan penambahan, edit, remove pada user yang menggunakan Joomla!. Tidak hanya itu, admin juga dapat melihat kapan terakhir user tersebut menggunakan Joomla!. Admin juga dapat mempromosikan user menjadi super user.
+
+Selain itu, admin juga dapat memantau dan meng-update article yang telah dirilis, seperti gambar berikut :
+<img src=https://raw.githubusercontent.com/jojowvan/joomla/master/IMG_0815.jpg></img>
+
+Admin dapat mengubah judul, jenis akses, remove, dan lain sebagainya seperti yang terlihat di menu bar bagian atas.
+
+Admin juga dapat menambahkan menu atau pun sub menu untuk mempermudah user, menu atau sub menu tersebut berada di kanan tampilan user.
+<img src=https://raw.githubusercontent.com/jojowvan/joomla/master/IMG_0816.jpg></img>
+
+Admin dapat melakukan layaknya CRUD dengan mudah, yaitu hanya pilih menu yang diinginkan di bagian atas (menu bar)
+
+Berikut adalah tampilan control panel secara menyeluruh untuk super user atau admin :
+<img src=https://raw.githubusercontent.com/jojowvan/joomla/master/IMG_0817.jpg></img>
+
 ## Pembahasan
 **Kelebihan**
 
@@ -93,6 +111,7 @@ Jika anda telah membuat kiriman, maka kiriman tersebut akan tampil pada layar ut
 -   Mudah dalam penggunaan
 -   Dapat digunakan secar gratis dan hanya membayar web hosting
 -   Komponen dan modul yang bisa kita dapat secara gratis
+-   Tampilan sangat simple namun bagus
 
 **Kekurangan**
 
